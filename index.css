@@ -1,19 +1,54 @@
-/* This is an example CSS file, feel free to remove/edit it anytime */
-.footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 10px;
-  text-align: center;
+@font-face {
+  font-family: "Raleway";
+  src: url("https://cdn.glitch.global/9fe9a1de-089b-4372-91cd-b09fcde0b2e2/Raleway-Medium.ttf?v=1693324528119");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("https://cdn.glitch.global/9fe9a1de-089b-4372-91cd-b09fcde0b2e2/Raleway-Black.ttf?v=1693324526258");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("https://cdn.glitch.global/9fe9a1de-089b-4372-91cd-b09fcde0b2e2/Raleway-Regular.ttf?v=1693324530547");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("https://cdn.glitch.global/9fe9a1de-089b-4372-91cd-b09fcde0b2e2/Raleway-SemiBold.ttf?v=1693324532639");
+  font-weight: 600;
 }
 
-.footer a {
-  font-size: 14px;
-  font-weight: bold;
-  text-decoration: none;
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0px !important;
+  padding: 0px;
 }
 
-.footer span {
-  font-size: 14px;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fafafa;
+  box-shadow: 0px 10px 20px 0px rgba(33, 33, 33, 0.25);
+  height: 80px;
+  padding: 0 104px;
+}
+.nav-links a {
+  text-decoration: none !important;
+  font-size: 1.0625rem;
+  text-transform: uppercase;
+  color: #212121;
+  font-weight: 500;
+  padding-left: 40px;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.nav-links {
+  display: flex;
+  flex-direction: row;
 }
