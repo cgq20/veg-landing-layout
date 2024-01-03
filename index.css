@@ -25,6 +25,41 @@ body {
   padding: 0px;
 }
 
+/* Typography */
+h1 {
+  font-size: 61px;
+  font-weight: 700;
+  line-height: 82.3px;
+  width: 500px;
+  margin-top: 0px;
+}
+h2 {
+  font-weight: 600;
+  font-size: 35px;
+}
+h5 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28.8px;
+}
+h6 {
+  font-size: 21px;
+  font-weight: 400;
+  color: #fb8c00;
+}
+h7 {
+  font-size: 25px;
+  font-weight: 600;
+}
+h6,
+h2 {
+  line-height: 0;
+  margin-top: -8px;
+}
+p {
+}
+
+/* navigation bar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -42,7 +77,6 @@ body {
   font-weight: 500;
   padding-left: 40px;
 }
-
 .right-side {
   display: flex;
   align-items: center;
@@ -51,4 +85,67 @@ body {
 .nav-links {
   display: flex;
   flex-direction: row;
+}
+
+
+/* Hero Section */
+.hero {
+  padding-left: 104px;
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+}
+.hero-left {
+  background-color: #2e7d32;
+  width: 404px;
+}
+.hero-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 704px;
+  margin-left:104px;
+}
+.hero-right h1 {
+  margin-bottom: 0px;
+}
+.hero-right h5 {
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+.hero-illustration img {
+  width: 525px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  margin-top: 32px;
+  transform: translate(-50%, -50%);
+}
+.hero-illustration img:nth-child(2) {
+  width: 202px;
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+  margin-top: 380px;
+}
+.button {
+  background-color: #fb8c00;
+  color: #212121;
+  padding: 9px 16px; /* Add some padding */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline */
+  display: flex; /* Make it an inline element */
+  align-items: center;
+  font-size: 16px; /* Set the font size */
+  cursor: pointer; /* Add a cursor on hover */
+  border-radius: 8px; /* Add rounded corners */
+  margin-top: 20px;
+}
+.button:hover {
+  background-color: #ffa83a;
+}
+.button img {
+  margin-left: 8px;
 }
